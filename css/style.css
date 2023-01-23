@@ -6,9 +6,13 @@ header
 
 header {
     background-color: var(--primary2);
-    transition: 0.3s all;
+    tranuition: 0.3s all;
   }
   
+
+  
+
+
   .icona {
     display: none !important;
   }
@@ -50,7 +54,10 @@ header {
   
   .big-nav {
     display: flex;
+    width: 50%;
     align-items: center;
+    position: relative;
+    bottom: 12px;
   }
   
   .nav-list {
@@ -866,7 +873,7 @@ header {
   .plan-btn-active:link,
   .plan-btn-active:visited {
     margin-bottom:1.6rem;
-    padding: 1.6rem 2.8rem;
+    padding: 1.6rem 1.8rem;
     color: #fff;
     font-size: 1.6rem;
     font-weight: 600;
@@ -1318,7 +1325,8 @@ header {
 
   .head-container {
     grid-template-columns: 1fr;
-    padding: 0 8rem;
+    padding: 0 !important;
+    padding-top: 11rem !important;
     gap: 6.4rem;
   }
 
@@ -1330,8 +1338,8 @@ header {
   .sub-appie {
     width: 60%;
     position: relative;
-    bottom: 10rem;
-    left: 18rem;
+    bottom: 9rem;
+    left: 13rem;
   }
 
   .customers {
@@ -1727,9 +1735,6 @@ left: 13rem;
     width: 4rem;
   }
 
-  .head-container {
-    padding: 0;
-  }
 
   .parent-text {
     text-align: center;
@@ -1794,6 +1799,10 @@ left: 13rem;
   .grid--3cols {
     grid-template-columns: 1fr;
   }
+
+  .email {
+    width: 80%;
+  }
 }
 
 
@@ -1857,7 +1866,7 @@ left: 13rem;
     right: -8rem;
 }
 .first-text {
-  font-size: 5rem;
+  font-size: 4rem;
   }
   .social {
     text-align: center !important;
@@ -1873,4 +1882,20 @@ left: 13rem;
 }
 .grid--4cols {
   grid-template-columns: 1fr !important;
+}
+
+.big-nav {
+  width: 33%;
+}
+
+.customers {
+  right: 6rem;
+}
+
+.container-service {
+  padding: 0 !important;
+  margin: 0 !important;
+  position: relative;
+    right: 2rem;
+}
 }
