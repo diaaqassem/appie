@@ -8,11 +8,14 @@ header
 
 header {
     background-color: var(--primary2);
-    tranuition: 0.3s all;
+    transition: 0.3s all;
   }
   
 
-  
+  .start-btn {
+    padding-bottom: 1.7rem;
+
+  }
 
 
   .icona {
@@ -42,12 +45,11 @@ header {
   }
   
   .header-container {
-    height: 9.6rem;
+    height: 7rem;
     padding: 0 0.4rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-bottom:1.6rem;
+    align-items: end;
   }
   
   .logo {
@@ -870,6 +872,7 @@ header {
   .price-btn {
     border: none;
     margin-bottom: 3.2rem;
+    width: 16rem;
   }
   
   .plan-btn-active:link,
@@ -1340,7 +1343,7 @@ header {
   .sub-appie {
     width: 60%;
     position: relative;
-    bottom: 9rem;
+    bottom: 7rem;
     left: 13rem;
   }
 
@@ -1807,42 +1810,7 @@ left: 13rem;
   }
 }
 
-
-.no-flexbox-gap .main-nav-list li:not(:last-child) {
-  margin-right: 4.8rem;
-}
-
-.no-flexbox-gap .list-item:not(:last-child) {
-  margin-bottom: 1.6rem;
-}
-
-.no-flexbox-gap .list-icon:not(:last-child) {
-  margin-right: 1.6rem;
-}
-
-.no-flexbox-gap .delivered-faces {
-  margin-right: 1.6rem;
-}
-
-.no-flexbox-gap .meal-attribute:not(:last-child) {
-  margin-bottom: 2rem;
-}
-
-.no-flexbox-gap .meal-icon {
-  margin-right: 1.6rem;
-}
-
-.no-flexbox-gap .footer-row div:not(:last-child) {
-  margin-right: 6.4rem;
-}
-
-.no-flexbox-gap .social-links li:not(:last-child) {
-  margin-right: 2.4rem;
-}
-
-.no-flexbox-gap .footer-nav li:not(:last-child) {
-  margin-bottom: 2.4rem;
-}
+/*  */
 
 @media (max-width: 75em) {
   .no-flexbox-gap .main-nav-list li:not(:last-child) {
@@ -1854,6 +1822,8 @@ left: 13rem;
   .grid--3cols {
     grid-template-columns: 1fr;
   }
+
+
 }
 
 @media (max-width: 59em) {
@@ -1869,6 +1839,7 @@ left: 13rem;
 }
 .first-text {
   font-size: 4rem;
+ 
   }
   .social {
     text-align: center !important;
@@ -1880,24 +1851,34 @@ left: 13rem;
     grid-template-columns: 1fr !important;
 }
 .parent-services {
-  width: 35rem !important;
+  width: 26rem !important;
+  margin: auto;
 }
 .grid--4cols {
   grid-template-columns: 1fr !important;
 }
 
 .big-nav {
-  width: 33%;
+  width: 20%;
+  bottom: 32px;
+    left: -30px;
 }
 
 .customers {
   right: 6rem;
+  top: 1rem;
 }
 
 .container-service {
   padding: 0 !important;
   margin: 0 !important;
   position: relative;
-    right: 2rem;
+  left: 5px;
+
+}
+
+.price-box {
+  position: relative;
+  right: 2rem;
 }
 }
